@@ -29,6 +29,8 @@ contract TestAdoption {
   //   Assert.isFalse(returnedErr, "Adoption out of range should fail.");
   // }
 
+  // TODO test event
+
   // Testing retrieval of a single pet's owner
   function testGetAdopterAddressByPetId() public {
     address adopter = adoption.adopters(expectedPetId);
